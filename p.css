@@ -1,0 +1,253 @@
+*{
+    margin:0px;
+    font-family:Arial;
+    border:border-box;
+    
+}
+
+.navbar{
+    height:60px;
+    background-color:#0f1111;
+    color:white;
+    display: flex;
+    /* sari cheezein ek row mei ayengi  */
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height:50px;
+    width:100px;
+    /* display:inline-block; */
+}
+.logo{
+    background-image:url("amazon_logo.png");
+ height:50px;
+ width:100%;
+ background-size:cover;
+}
+.border{
+    border:2px solid transparent;
+    /* by default border */
+}
+.border:hover{
+    border:2px solid white;
+}
+.border:active{
+    border:2px solid goldenrod;
+}
+.nav-address{
+    /* display:inline-block; */
+    border:2px solid transparent;
+}
+.nav-address:hover{
+    border:2px solid white;
+}
+.nav-address:active{
+    border:2px solid goldenrod;
+}
+.add-icon{
+    /* display: inline-block; */
+    display:flex;
+    align-items: center;
+}
+#add-first{
+    color:#cccccc;
+    font-size:0.85rem;
+    /* rem used to make website responsive */
+    margin-left:15px;
+}
+#add-sec{
+ font-size:1rem;
+ margin-left:5px;
+ font-weight: bolder;
+ 
+}
+#nav-search{
+    background-color: pink;
+    margin-left:13px;
+    display:flex;
+    width:620px;
+    height:40px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align:center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    height:40px;
+    border:none;
+}
+ .search-input{
+    width:100%;
+    font-size:1rem;
+    border:none;
+}
+#search-icon{
+    width:45px;
+    color:black; 
+    background-color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size:1.2 rem;
+    /* rem mei lo */
+} 
+
+#country{
+    background-color:#0f1111;
+    color:white;
+    border:2px solid transparent;
+    margin-right: 3px;
+}
+
+.combined:hover{
+    border:2px solid white;
+    margin-right: 3px;
+}
+.combined:active{
+    border:2px solid goldenrod;
+}
+
+#name{
+    font-size:0.7rem;
+    padding-left:7px;
+}
+
+#account{
+    background-color:#0f1111;
+    color:white;
+    border:2px solid transparent;
+    font-size:0.85rem;
+    font-weight: bolder;
+}
+
+.mother:hover{
+    border:2px solid white;
+}
+.mother:active{
+    border:2px solid goldenrod;
+}
+
+.second_last:hover{
+    border:2px solid white;
+}
+.second_last:active{
+    border:2px solid goldenrod;
+}
+#return{
+      font-size:12px;
+}
+
+#order{
+    font-size:14px;
+    font-weight:bolder;
+}
+
+#cart{
+    font-weight:bolder;
+}
+.anchor{
+    width:41px;
+    height: 28px;
+}
+
+
+.carts:hover{
+    border:2px solid white;
+}
+.carts:active{
+    border:2px solid goldenrod;
+
+}
+/* #################################################### */
+.navbar2{
+    display:flex;
+    background-color :#222f3d;
+    height:40px;
+    justify-content:space-evenly;
+    align-items: center;
+    /* width:418px; */
+    color:white;
+
+}
+.NEW{
+    color:white;
+    border:2px solid transparent;
+    padding-top:9px;
+    padding-left:4px;
+    padding-right:4px;
+    padding-bottom:9px;
+}
+.NEW:hover{
+    border:2px solid white;
+}
+.NEW:active{
+    border:2px solid orange;
+}
+#button{
+    background-color :#222f3d;
+    color:white;
+    border:2px solid transparent;
+    margin-right: 3px;
+}
+/* #### */
+#pic{
+    height:600px;
+    /* width:1465px; */
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/tiyesum/realmenarzo60series/display/D85283799_Tall_Hero_3000x1200._CB601967279_.jpg");  
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+#box1{
+    width: 23%;
+    height:400px;
+    border:2px solid black;
+    background-color:#FFFAD7;
+    background-image: url("https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNsb3RoZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60");
+   background-size:cover;
+}
+#box2{
+    width: 23%;
+    height:400px;
+    border:2px solid black;
+    background-color:#FFE4A7;
+    background-image: url("https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNsb3RoZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60");
+    background-size:cover;
+}
+
+#box3{
+    width: 23%;
+    height:400px;
+    border:2px solid black;
+    background-color:#FF90BB;
+    background-image: url("https://images.unsplash.com/photo-1434389677669-e08b4cac3105?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2xvdGhlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size:cover;
+}
+#box4{
+    width: 23%;
+    height:400px;
+    border:2px solid black;
+    background-color:#FF2171;
+    background-image: url("https://images.unsplash.com/photo-1467043237213-65f2da53396f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2xvdGhlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size:cover;
+}
+#shop{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+footer{
+    height: 200px;
+    width:100%;
+    background-color: #0F1111;
+    color:white;
+    font-weight:bolder;
+    text-align: center;
+    padding-top:200px;
+    font-size: 100px;
+}
